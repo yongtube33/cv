@@ -1,0 +1,54 @@
+/* TAG selectors */
+
+body{
+    background-color: honeydew;
+}
+hr{
+    border-style: dotted none none none;
+    border-color: dimgrey;
+    border-width: 7px 0px 0px 0px;
+    margin: 0 auto 0 auto;
+    width: 10%;
+}
+
+h1{
+    color: seagreen;
+    text-shadow: 2px 2px 5px darkolivegreen;
+    font-family: monospace;
+}
+
+h2{
+    color: seagreen;
+}
+
+h3{
+    color: seagreen;
+}
+
+/* CLASS selectors */
+.brocolli{
+    background-color: aquamarine;
+}
+
+.bacon{
+    background-color: brown;
+}
+
+.circularBorder{
+    border-radius: 25% 50%;
+}
+
+.bacon:active{
+    border-radius: 100%;
+}
+
+.bacon:hover{
+    background-color: chocolate;
+}
+
+
+/* ID selectors */
+#first-paragraph{
+    color: cornflowerblue;
+    font-style: oblique;
+}
